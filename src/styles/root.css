@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    background: none;
+}
+
+/* Cores */
+:root {
+    --cinza: #3F3D3D;
+    --lilas: #E4A8F7;
+    --lilas-logo: #BD9B9B;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--lilas);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 20px 20px;
+    color: var(--cinza);
+    font-weight: bold;
+    font-size: 16px;
+    gap: 20px;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    border-bottom: 1px solid var(--cinza);
+}
