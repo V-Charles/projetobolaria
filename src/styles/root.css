@@ -10,8 +10,9 @@
 /* Cores */
 :root {
     --cinza: #3F3D3D;
-    --lilas: #E4A8F7;
+    --bege-claro: #F1ECD3;
     --lilas-logo: #BD9B9B;
+    --lilas-cinza: #746A77;
     --branco: #FFFFFF;
     --preto: #000000;
 }
@@ -21,7 +22,7 @@ body {
 }
 
 header {
-    background-color: var(--lilas);
+    background-image: url(../assets/images/CabeçalhoPrincipal.svg) ;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -29,14 +30,23 @@ header {
 }
 
 nav a {
-    margin: 20px 20px;
-    color: var(--cinza);
+    margin-left: 20px;
+    padding: 20px;
+    align-items: flex-end;
+    color: var(--lilas-cinza);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 30px;
     gap: 20px;
     transition: 0.4s;
 }
 
 nav a:hover {
-    border-bottom: 1px solid var(--cinza);
+    border-bottom: 1px solid var(--lilas-cinza);
+}
+
+footer {
+    background-color: var(--bege-claro);
+    padding: 20px;
+    display: flex;
+    justify-content: left;
 }
